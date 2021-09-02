@@ -1,0 +1,45 @@
+.CameraView {
+    color: #3C6E71;
+    font-family: monospace;
+
+    padding: 15px 30px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70vw;
+
+    border-radius: 12px;
+}
+
+.CameraView-Heading {
+    text-align: center;
+}
+
+.CameraView-Content {
+    display: flex;
+    flex-direction: row;
+}
+
+.CameraView-Content > div {
+    flex: 1;
+}
+
+.CameraView-Front {
+    margin-right: 30px;
+}
+
+.CameraView-Title {
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.CameraView-Img {
+    max-width: 100%;
+    border-radius: 24px;
+}
+
+.Background_white {
+    background: #D9D9D9;
+}
